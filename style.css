@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Ensures full screen height */
+}
+
+body {
+  background-image: url('mount.jpg');
+  background-size: cover;       /* Scales image to cover entire screen */
+  background-position: center;   /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from tiling */
+  background-attachment: fixed; /* Keeps background fixed when scrolling */
+}
+
+html, body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+body {
+  background: linear-gradient(135deg, #c7c9cf, #534f53);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
